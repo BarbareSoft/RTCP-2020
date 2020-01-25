@@ -1,0 +1,15 @@
+Description :
+It's important to know all the different kinds of rice. After all, what kind of cook would Delphine be if she couldn't identify the different types? But GIANt needs to learn too. So Delphine is having him research different kinds of cookies. She wants him to find the cookie that help websites remember her information and settings when she visit them in the future. Creepy? Yes. Important? Also yes.
+
+Hint :
+This challenge still follows typical flag format, just wrap your answer with rtcp{answer_here}.
+Non-case sensitive.
+
+
+Solution : 
+We can find on : https://en.wikipedia.org/wiki/HTTP_cookie#Terminology
+"She wants him to find the cookie that help websites remember her information and settings when she visit them in the future. "
+It's Persistent cookies.
+
+Flag : 
+rtcp{persistent}
