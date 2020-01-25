@@ -1,0 +1,32 @@
+Description :
+grrrrrrR
+big chicken, i hisS At you!!!
+
+Hints :
+- <cipher>
+- <public key>
+- <private key>
+
+Solution :
+By using :
+
+You will find : unknown-123-246-470-726.herokuapp.com
+
+On this webpage, you will find a gif. Let's check the source-code.
+We find this : 
+    <p hidden>9 20 30 15 16 5 14 19 30 27 29 8 20 13 12 28</p>
+    <p hidden>"abcdefghijklmnopqrstuvwxyz[]. "</p>
+   
+Now, let's imagine our alphabet is "abcdefghijklmnopqrstuvwxyz[]. ". Let's replace "9" by the 9th character of our alphabet, 20 bu the 20th,...
+We will find : "it opens [.html]"
+
+Let's go back to the gif. Look at everywhere, what opens ?
+Bingo, the drawer.
+
+Let's go to http://unknown-123-246-470-726.herokuapp.com/drawer.html
+
+You will find the flag in the source-code.
+
+
+Flag : 
+rtcp{ch1ck3n_4nd_th3_3gg}
