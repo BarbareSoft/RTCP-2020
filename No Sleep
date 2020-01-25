@@ -1,0 +1,15 @@
+Description : 
+Jess doesn't get enough sleep, since he's such a gamer so in this challenge, you'll be staying up with him until 4:00 in the morning :D on a Monday! Let's go, gamers!
+
+Hint : 
+https://riceteacatpanda.wtf/onlyrealgamers
+
+Solution :
+By clicking on the website in the hint section, we find a countdown
+This countdown will end on Monday 27th Jan, 04:20 AM.
+On the begeinning, i was thinking it's a "cookie injection", i only need to modify the date inside cookies to have the flag.
+But i was wrong !
+You only need to modify the date on your local computer to have the flag (no matter cookies).
+
+Flag : 
+rtcp{w0w_d1d_u_st4y_up?}
