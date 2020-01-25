@@ -1,0 +1,21 @@
+Description :
+uwu...senpai placed this note on my desk before class but i cant wead what it says!!!!!! can you hewp me????????? uwu tysm
+tlyrc_o_0pnvhu}{137rmi__i_omwm
+
+Solution :
+We already know flag start by "rtcp{". We guess it's a transposition cipher. On the beginning, i was thinking it was a Rail Fence Cipher.
+But no website give me the right solution.... so i did it on my own.
+In the string, there's only 1 "t", 1 "c", 1 "p", 1 "{" and 1 "}".
+Let's try it.
+
+
+  t                    l                   y
+r   c                _   o               _   0
+      p            n       v           h       u           }
+        {        1           3       7           r       m
+          i    _               _   i               _   o
+            m                    w                   m
+            
+            
+Flag :
+rtcp{im_1n_lov3_wi7h_y0ur_mom}
