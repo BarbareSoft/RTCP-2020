@@ -1,0 +1,24 @@
+Descrption : 
+ᵘʷᵘ oh no ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ hecc sorry guys ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ sorry im dropping ᵘʷᵘ my uwus all over the ᵘʷᵘ place ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ oh no I lost one ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ ᵘʷᵘ
+ah, Jake, you idiot
+
+Hints :
+- https://riceteacatpanda.wtf/uwu
+- This challenge gets progressively harder the faster your internet is if you do it manually
+
+Solution : 
+When you click on https://riceteacatpanda.wtf/uwu , your page will be uploaded about 5 times. But why ?
+Let's check on the source-code.
+With it, we can now see all of the pages : 
+1 ) https://riceteacatpanda.wtf/uwu
+2 ) https://riceteacatpanda.wtf/omgmeow
+3 ) https://riceteacatpanda.wtf/pandaaaaaaa
+4 ) https://riceteacatpanda.wtf/you-better-wash-your-rice
+5 ) https://riceteacatpanda.wtf/footprint
+6 ) https://riceteacatpanda.wtf/uwustorage
+
+Now, let's check in source-code if we find "rtcp{".
+Bingo ! In https://riceteacatpanda.wtf/footprint, you will find the flag !
+
+Flag :
+rtcp{uwu_,_1_f0und_y0u}
