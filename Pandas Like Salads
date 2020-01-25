@@ -1,0 +1,23 @@
+Description :
+Did you know a new panda was added to the Washington DC zoo recently? Yep, apparently she really like salads. Interesting, yeah? Also, the panda keepers of the zoo said that the key to happiness in life is a little CUTENESS every day. You know, all the keepers who are on the panda's rotation all said the same thing to me. Very interesting.
+
+Solution :
+This encryption method is the Pigpen cipher.
+
+By using : https://www.dcode.fr/pigpen-cipher
+We have now : YSAY{HJKAHR_QQGDIA_UNR_KW_YRQ_PM_NNFB} 
+
+By using : https://www.dcode.fr/vigenere-cipher
+We guess the key is CUTENESS (because of uppercase).
+We have now : WYHU{UFSIFX_XMTZQI_STY_GJ_UZY_NS_UJSX} 
+
+By using : https://www.dcode.fr/caesar-cipher
+(we can click on "bruteforce", 25 possibilities, it's ok)
+We have now : RTCP{PANDAS_SHOULD_NOT_BE_PUT_IN_PENS}
+
+WARNING : Flag is case sensitive, the flag is in lowercase.
+
+
+
+Flag :
+rtcp{pandas_should_not_be_put_in_pens}
