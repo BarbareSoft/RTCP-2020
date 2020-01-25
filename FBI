@@ -1,0 +1,25 @@
+Description :
+Happy MLK day! (January 20th for y'alls non-American folk).
+
+
+
+Hints :
+- What's does the challenge name have to do with its theme?
+- Flag format is rtcp(...) not rtcp{}
+- The text you use to solve this challenge may slightly vary by a few characters, spacing etc. If these exists, correct them to make it a valid string of english words separated by -s
+
+
+Solution :
+Thanks to the first hint, i search "FBI MLK" on the web.
+I found a letter (from the FBI) send to MLK about suicide.
+On MESSAGE.txt, I guessed one line = one letter. So there are 3 information to find a letter :
+- First number between 1 and 6          -> which paragraph ?
+- Second number between 0 and 15        -> which line ?
+- Last number between 0 and 63          -> which character ?
+
+By doing it on my own, i found : rtcp(halpy_fifti tf_mll_day_ameiica_oes_lome_a_iong_way)
+(some website may do it for us, but i was inspired....)
+The third hint said there are some mistake on a few characters, so let's correct it !
+
+Flag : 
+rtcp(happy_fiftieth_mlk_day_america_has_come_a_long_way)
