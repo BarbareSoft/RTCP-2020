@@ -1,0 +1,22 @@
+Description:
+It appears that my cat has gotten itself stuck in a tree... It's really tall and I can't seem to reach it. Maybe you can throw a snake at the tree to find it?  Oh, you want to know what my cat looks like? I put a picture in the hints.
+
+Hint : 
+Here, my cat looks like this:
+#FFC90E#FFC90E#FFC90E#FFFFFF#FFFFFF#FFFFFF#FFFFFF#FFFFFF#FFC90E 
+#FFC90E#000000#FFC90E#FFFFFF#FFFFFF#FFFFFF#FFFFFF#FFC90E#FFFFFF 
+#FFC90E#FFC90E#FFC90E#FFC90E#FFC90E#FFC90E#FFC90E#FFFFFF#FFFFFF 
+#FFFFFF#FFFFFF#FFC90E#FFC90E#FFC90E#FFC90E#FFC90E#FFFFFF#FFFFFF 
+#FFFFFF#FFFFFF#FFC90E#FFC90E#FFC90E#FFC90E#FFC90E#FFFFFF#FFFFFF 
+#FFFFFF#FFFFFF#FFFFFF#FFC90E#FFFFFF#FFC90E#FFFFFF#FFFFFF#FFFFFF 
+
+Solution :
+We have a huge folder, which contains folder, which contains folder, ...
+There are some .jpg sometimes, but most of them are fake (there is "rtcp{....}" but it isn't the flag).
+
+I wrote my own program to find the different .jpg.
+All of .jpg have of 1496 or 1718 octets.
+EXCEPT ONE : P24AKQCA/I0E91C/6SF60/N02AKM/EAJCOQ6/ENP92.jpg : 2208 octets.
+Open this picture and you will find the flag.
+
+Flag : rtcp{meow_sharp_pidgion_rice_tree}
