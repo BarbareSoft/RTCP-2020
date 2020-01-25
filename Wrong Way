@@ -1,0 +1,15 @@
+Description :
+Did you know that you've been going the wrong way entire time?
+E7Rq<G:Kǒ
+
+Hint :
+Format in rtcp{} format, adding _ underscores as needed. The flag should be case insensitive
+
+Solution : 
+We guess "E7Rq<G:Kǒ" is a base encryption... But it isn't !
+It's a base decryption. 
+By using : https://www.asciitohex.com , copy "E7Rq<G:Kǒ" in ascii and check the base64 result.
+Ascii("E7Rq<G:Kǒ") -> Base64("RTcPUnEXPEcTEDpLAceS")
+
+Flag :
+RTcP{UnEXPEcTED_pLAceS}
