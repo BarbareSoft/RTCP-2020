@@ -1,0 +1,24 @@
+Description :
+nyameowmeow nyameow nyanya meow purr nyameowmeow nyameow nyanya meow purr nyameowmeow nyanyanyanya nyameow meow purr meow nyanyanyanya nya purr nyanyanyanya nya meownyameownya meownyameow purr nyanya nyanyanya purr meowmeownya meowmeowmeow nyanya meownya meowmeownya purr meowmeowmeow meownya purr nyanyanyanya nya nyameownya nya !!!!
+
+Hint : 
+once you've figured this out, head to discord's #catchat channel.
+
+Solution : 
+Honnestly, i didn't find the decryption method for the first time.
+So i check de #catchat channel without knowing how to decrypt it.
+On it, you will find lots of message with "nya", "meow" and "purr".
+
+After a while (and a hint on a discord channel), i found an idea. What if it was mo cipher ?
+
+Let's copy all of #catchat channel in a text editor.
+Replace "meow" by "-", "nya" by "." and "purr" by " / ".
+
+Now, we will use : https://www.dcode.fr/morse-code
+Copy your huge string, and click on Translate Morse.
+
+You will have a huge text, search "RTCP" and you will find the flag.
+RTCP:TH15_1Z_A_C4T_CH4T_N0T_A_M3M3_CH4T
+
+Flag : 
+RTCP{TH15_1Z_A_C4T_CH4T_N0T_A_M3M3_CH4T}
