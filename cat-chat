@@ -9,7 +9,7 @@ Honnestly, i didn't find the decryption method for the first time.
 So i check de #catchat channel without knowing how to decrypt it.
 On it, you will find lots of message with "nya", "meow" and "purr".
 
-After a while (and a hint on a discord channel), i found an idea. What if it was mo cipher ?
+After a while (and a hint on a discord channel), i found an idea. What if it was morse cipher ?
 
 Let's copy all of #catchat channel in a text editor.
 Replace "meow" by "-", "nya" by "." and "purr" by " / ".
